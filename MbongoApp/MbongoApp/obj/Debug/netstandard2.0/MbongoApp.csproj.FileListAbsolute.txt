@@ -1,0 +1,13 @@
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\bin\Debug\netstandard2.0\MbongoApp.deps.json
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\bin\Debug\netstandard2.0\MbongoApp.dll
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\bin\Debug\netstandard2.0\ref\MbongoApp.dll
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\bin\Debug\netstandard2.0\MbongoApp.pdb
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\Views\BankTransferPage.xaml.g.cs
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\MbongoApp.AssemblyInfoInputs.cache
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\MbongoApp.AssemblyInfo.cs
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\MbongoApp.dll
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\ref\MbongoApp.dll
+C:\Users\amaro.manungu\source\repos\MbongoApp\MbongoApp\MbongoApp\obj\Debug\netstandard2.0\MbongoApp.pdb

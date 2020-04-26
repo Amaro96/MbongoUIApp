@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MbongoApp.Views.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    mc:Ignorable="d">
+
+    <NavigationPage.TitleView>
+        <StackLayout Margin="20" Orientation="Horizontal">
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="18"
+                HorizontalOptions="CenterAndExpand"
+                Text="Mobile money"
+                TextColor="White" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand">
+        <StackLayout BackgroundColor="#2196F3" HeightRequest="120">
+            <Frame
+                Margin="10"
+                BackgroundColor="White"
+                CornerRadius="10"
+                HeightRequest="300"
+                TranslationY="40">
+                <StackLayout Orientation="Horizontal">
+
+                    <Frame
+                        Margin="0,0,10,0"
+                        Padding="10"
+                        BackgroundColor="Accent"
+                        BorderColor="LightGray"
+                        CornerRadius="40"
+                        HasShadow="True"
+                        HeightRequest="20"
+                        IsClippedToBounds="True"
+                        WidthRequest="60">
+
+                        <abstractions:CircleImage
+                            Aspect="AspectFit"
+                            HeightRequest="20"
+                            Source="prince"
+                            WidthRequest="30" />
+                    </Frame>
+                    <StackLayout>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span
+                                        FontAttributes="Bold"
+                                        FontSize="Body"
+                                        Text="Eugene Afeti"
+                                        TextColor="#FF2ED833" />
+                                    <Span Text="   recieves" TextColor="LightGray" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="Large"
+                            Text="GH200"
+                            TextColor="Black" />
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+
+                            <Image
+                                Aspect="AspectFit"
+                                HeightRequest="22"
+                                Source="MTN" />
+
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span
+                                            FontAttributes="Bold"
+                                            Text="MTN Mobile Money "
+                                            TextColor="LightGray" />
+                                        <Span
+                                            FontAttributes="Bold"
+                                            FontSize="Body"
+                                            Text=" 0244567876"
+                                            TextColor="Black" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame
+                Margin="10"
+                BackgroundColor="White"
+                TranslationY="40">
+                <StackLayout Margin="5">
+                    <Label
+                        HorizontalOptions="Start"
+                        Text="Pay with"
+                        TextColor="Black" />
+
+
+                    <Grid
+                        ColumnSpacing="20"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="5*" />
+                            <ColumnDefinition Width="5*" />
+                        </Grid.ColumnDefinitions>
+
+
+                        <Frame
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="5"
+                            Margin="0,10"
+                            Padding="10"
+                            BorderColor="black"
+                            HasShadow="True">
+                            <StackLayout Orientation="Horizontal" Spacing="20">
+
+                                <Label
+                                    FontSize="18"
+                                    HorizontalOptions="FillAndExpand"
+                                    HorizontalTextAlignment="Start"
+                                    Text="Card"
+                                    TextColor="Black"
+                                    VerticalOptions="CenterAndExpand"
+                                    Visual="Custom" />
+                                <Image HeightRequest="30" Source="ic_chevron_down" />
+                            </StackLayout>
+                        </Frame>
+
+                    </Grid>
+
+                    <pancakeview:PancakeView
+                        Margin="0,0,0,0"
+                        BackgroundGradientAngle="#2196F3"
+                        BackgroundGradientEndColor="#6dd5ed"
+                        BackgroundGradientStartColor="#2193b0"
+                        CornerRadius="10,10,10,10">
+                        <StackLayout
+                            Margin="20"
+                            HeightRequest="200"
+                            Spacing="10">
+                            <Image HorizontalOptions="StartAndExpand" Source="ic_mastercard_white" />
+                            <Label
+                                FontSize="20"
+                                Text="●●●● ●●●● ●●●● 0113"
+                                TextColor="White" />
+
+                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                <Label
+                                    FontSize="20"
+                                    HorizontalOptions="StartAndExpand"
+                                    Text="AMARO MANUNGU"
+                                    TextColor="White" />
+
+                                <Label
+                                    FontSize="20"
+                                    HorizontalOptions="End"
+                                    Text="11/22"
+                                    TextColor="White" />
+                            </StackLayout>
+                        </StackLayout>
+
+                    </pancakeview:PancakeView>
+
+                    <Label
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Use Another Card"
+                        TextColor="#2196F3" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+        <Button
+            x:Name="btnTransfer"
+            Margin="20"
+            BackgroundColor="#FF2ED833"
+            Clicked="btnTransfer_Clicked"
+            CornerRadius="20"
+            HorizontalOptions="FillAndExpand"
+            Text="Next"
+            TextColor="White"
+            VerticalOptions="EndAndExpand" />
+
+    </StackLayout>
+
+</ContentPage>

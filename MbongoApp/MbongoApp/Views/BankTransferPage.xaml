@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MbongoApp.Views.BankTransferPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    NavigationPage.HasBackButton="False"
+    mc:Ignorable="d">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+
+            <Label
+                Margin="20,0"
+                FontAttributes="Bold"
+                FontSize="18"
+                HorizontalOptions="CenterAndExpand"
+                Text="Bank Transfer"
+                TextColor="White" />
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <Grid
+        BackgroundColor="White"
+        ColumnSpacing="20"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="5*" />
+        </Grid.ColumnDefinitions>
+
+
+        <Label
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="20,0"
+            FontSize="18"
+            Text="Select Country"
+            TextColor="Black" />
+
+        <Frame
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="20,30,20,30"
+            Padding="10"
+            BorderColor="black"
+            HasShadow="false">
+            <StackLayout Orientation="Horizontal" Spacing="20">
+
+                <Label
+                    FontSize="18"
+                    HorizontalOptions="FillAndExpand"
+                    HorizontalTextAlignment="Start"
+                    Text="ANGOLA"
+                    TextColor="Black"
+                    VerticalOptions="CenterAndExpand"
+                    Visual="Custom" />
+                <Image HeightRequest="30" Source="ic_chevron_down" />
+            </StackLayout>
+        </Frame>
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            Margin="20,0"
+            FontSize="18"
+            Text="Enter recipient's bank"
+            TextColor="Black" />
+        <Frame
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="20,30,20,30"
+            Padding="10"
+            BackgroundColor="LightGray"
+            BorderColor="Gray"
+            HasShadow="false">
+            <StackLayout Orientation="Horizontal" Spacing="20">
+
+                <Label
+                    FontAttributes="Bold"
+                    HorizontalOptions="FillAndExpand"
+                    HorizontalTextAlignment="Start"
+                    Text="Type in recipient´s bank"
+                    VerticalOptions="CenterAndExpand"
+                    Visual="Custom" />
+
+            </StackLayout>
+        </Frame>
+
+        <StackLayout
+            Grid.Row="2"
+            Margin="20,0"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+
+            <Label
+                FontAttributes="Bold"
+                FontSize="Medium"
+                Text="You can select bank from list"
+                TextColor="Black" />
+
+            <CollectionView
+                x:Name="listofBank"
+                HorizontalOptions="FillAndExpand"
+                ItemsSource="{Binding Banks}"
+                VerticalOptions="FillAndExpand">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+
+                        <Frame
+                            Margin="0,0,0,10"
+                            Padding="5"
+                            BackgroundColor="White"
+                            BorderColor="#F0F0F0"
+                            HasShadow="True">
+                            <Grid
+                                HeightRequest="70"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="Start">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="18" />
+                                    <ColumnDefinition Width="60" />
+                                </Grid.ColumnDefinitions>
+
+
+                                <abstractions:CircleImage
+                                    Grid.Column="1"
+                                    Aspect="AspectFit"
+                                    HeightRequest="30"
+                                    HorizontalOptions="StartAndExpand"
+                                    Source="{Binding bankLogo}"
+                                    WidthRequest="40" />
+
+                                <Label
+                                    Grid.Column="2"
+                                    FontSize="15"
+                                    Text="{Binding bankName}"
+                                    TextColor="Black"
+                                    VerticalOptions="CenterAndExpand" />
+
+                            </Grid>
+                        </Frame>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
