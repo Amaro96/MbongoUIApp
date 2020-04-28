@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "2+Jl0vWLYOsyIn7S2p/BQglu58C9nI9XZ+2MTHc0KfhpVmsRvGKj0Fbywz5YbaGfWaOFmnKJwA/F1qVgNxYu4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.1.1.1-beta\\xam.plugins.forms.imagecircle.3.1.1.1-beta.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xamarin.forms.pancakeview\\1.4.2-beta\\xamarin.forms.pancakeview.1.4.2-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

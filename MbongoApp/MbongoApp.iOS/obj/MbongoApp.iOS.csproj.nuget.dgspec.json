@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj": {}
+    "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj": {
+    "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj",
         "projectName": "MbongoApp.iOS",
-        "projectPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj",
+        "projectPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj",
         "packagesPath": "C:\\Users\\amaro.manungu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.iOS\\obj\\",
+        "outputPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj": {
-                "projectPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj"
+              "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj": {
+                "projectPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj": {
+    "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj",
+        "projectUniqueName": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj",
         "projectName": "MbongoApp",
-        "projectPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj",
+        "projectPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj",
         "packagesPath": "C:\\Users\\amaro.manungu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\obj\\",
+        "outputPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -144,7 +144,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

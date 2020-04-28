@@ -6,6 +6,7 @@
     xmlns:abstractions="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    BackgroundColor="White"
     NavigationPage.HasBackButton="False"
     mc:Ignorable="d">
 
@@ -23,6 +24,7 @@
     </NavigationPage.TitleView>
 
     <Grid
+        Margin="0,30"
         BackgroundColor="White"
         ColumnSpacing="20"
         HorizontalOptions="FillAndExpand"
@@ -99,7 +101,9 @@
 
         <StackLayout
             Grid.Row="2"
-            Margin="20,0"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="20,30,20,30"
             HorizontalOptions="FillAndExpand"
             VerticalOptions="FillAndExpand">
 
@@ -128,9 +132,10 @@
                             BorderColor="#F0F0F0"
                             HasShadow="True">
                             <Grid
-                                HeightRequest="70"
+                                HeightRequest="50"
                                 HorizontalOptions="FillAndExpand"
-                                VerticalOptions="Start">
+                                VerticalOptions="Start"
+                                WidthRequest="200">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="18" />
                                     <ColumnDefinition Width="60" />

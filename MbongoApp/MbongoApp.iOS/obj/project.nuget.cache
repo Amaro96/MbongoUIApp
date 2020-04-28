@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "XV8LlWHjiIPy6TKHAQDWGdehIfoniTVRqdP5rXMUGoneOLgq9Kx+U9W0dDRtQtfkVs+Vo6gDPl6mEICD0NoSCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.iOS\\MbongoApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xam.plugins.forms.imagecircle\\3.1.1.1-beta\\xam.plugins.forms.imagecircle.3.1.1.1-beta.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512",
+    "C:\\Users\\amaro.manungu\\.nuget\\packages\\xamarin.forms.pancakeview\\1.4.2-beta\\xamarin.forms.pancakeview.1.4.2-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

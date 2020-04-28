@@ -2091,11 +2091,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.Android\\MbongoApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.Android\\MbongoApp.Android.csproj",
       "projectName": "MbongoApp.Android",
-      "projectPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.Android\\MbongoApp.Android.csproj",
+      "projectPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.Android\\MbongoApp.Android.csproj",
       "packagesPath": "C:\\Users\\amaro.manungu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2116,8 +2116,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj": {
-              "projectPath": "C:\\Users\\amaro.manungu\\source\\repos\\MbongoApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj"
+            "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj": {
+              "projectPath": "C:\\Users\\amaro.manungu\\Desktop\\MbongoUIApp\\MbongoApp\\MbongoApp\\MbongoApp.csproj"
             }
           }
         }
